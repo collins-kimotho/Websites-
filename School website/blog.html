@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="eduford_img/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">COURSE</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+      <h1>Our Certificate & Online Programs for 2023</h1>
+    </section>
+    <!-------------------Blog page content----------------->
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="eduford_img/certificate.jpg" />
+          <h2>Our Certificate & Online Programs for 2023</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+            hic id maiores sed corrupti aspernatur pariatur quae inventore!
+            Necessitatibus aspernatur nobis quaerat eos iste facere alias
+            expedita soluta. Dignissimos, blanditiis!
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+            perferendis, non inventore quaerat exercitationem suscipit adipisci
+            sint facere quisquam unde asperiores beatae veniam, similique ipsam
+            placeat maiores doloribus, voluptate labore!
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+            perferendis, non inventore quaerat exercitationem suscipit adipisci
+            sint facere quisquam unde asperiores beatae veniam, similique ipsam
+            placeat maiores doloribus, voluptate labore!
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+            perferendis, non inventore quaerat exercitationem suscipit adipisci
+            sint facere quisquam unde asperiores beatae veniam, similique ipsam
+            placeat maiores doloribus, voluptate labore!
+          </p>
+
+          <div class="comment-box">
+            <h3>Leave a Comment</h3>
+            <form class="comment-form">
+              <input type="text" placeholder="Enter Name" />
+              <input type="text" placeholder="Enter Email" />
+              <textarea rows="5" placeholder="Your Comment"></textarea>
+              <button type="submit" class="hero-btn red-btn">
+                POST COMMENT
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="blog-right">
+          <h3>Post Categories</h3>
+          <div>
+            <span>Business Analytics</span>
+            <span>21</span>
+          </div>
+          <div>
+            <span>Data Science</span>
+            <span>28</span>
+          </div>
+          <div>
+            <span>Machine Learning</span>
+            <span>25</span>
+          </div>
+          <div>
+            <span>Computer Science</span>
+            <span>28</span>
+          </div>
+          <div>
+            <span>AWS Cloud Developer</span>
+            <span>18</span>
+          </div>
+          <div>
+            <span>Data & Big Data Analytics</span>
+            <span>15</span>
+          </div>
+          <div>
+            <span>Salesforce</span>
+            <span>30</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-------------Footer---------------------------------->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi error
+        esse nemo quam delectus nisi saepe optio ducimus, <br />vel qui impedit
+        doloribus quidem fugit, facere sit, dolor autem voluptatem alias!
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Made by <i class="fa fa-heart-o"></i> Collins Kimotho</p>
+    </section>
+
+    <!---------JavaScript for Toggle Menu---->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showmenu() {
+        navLinks.style.right = "0";
+      }
+      function hidemenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
